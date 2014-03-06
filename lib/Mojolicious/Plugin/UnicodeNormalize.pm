@@ -1,8 +1,5 @@
 package Mojolicious::Plugin::UnicodeNormalize;
-{
-  $Mojolicious::Plugin::UnicodeNormalize::VERSION = '1.20131107';
-}
-
+$Mojolicious::Plugin::UnicodeNormalize::VERSION = '1.20140306';
 use Mojolicious 4.55;
 use Mojo::Base 'Mojolicious::Plugin';
 use Unicode::Normalize ();
